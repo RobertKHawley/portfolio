@@ -1,12 +1,16 @@
 <!DOCTYPE HTML>
-
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
 		<title>Robert's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="./assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="./assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -15,13 +19,8 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>Robert</br>
-							Keith</br>
-							Hawley
-						</h1>
-						<p>
-							Aspiring Data Analyst
-						</p>
+						<h1>Robert<br/>Keith<br/>Hawley</h1>
+						<p>Harnessing the Power of Data</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -36,13 +35,9 @@
 					<nav id="nav">
 						<ul class="links">
 							<li class="active"><a href="index.html">Projects</a></li>
-							<li><a href="RobertHawley_CV.pdf">CV</a></li>
-							<!-- <li><a href="elements.html">Elements Reference</a></li> -->
+							<li><a href="CV.html">CV</a></li>
 						</ul>
 						<ul class="icons">
-							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
-							<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-							<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
 							<li><a href="https://www.linkedin.com/in/robertkhawley/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="https://github.com/RobertKHawley" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
@@ -50,99 +45,136 @@
 
 				<!-- Main -->
 					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<!-- <span class="date"></span> -->
+									<h2 id="featured"><a href="#featured" class="scrolly">The FPL Prophecy</a></h2>
+									<p>The FPL Prophecy is a football data analysis platform, which aims to provide insights and
+										projections to help people make informed decisions about their fantasy teams. This project has
+									challenged me in various domains, including web scraping, organising data, data blending, ETL processes,
+									data cleaning, exploratory data analysis, forecasting, feature engineering, machine learning, model evaluation, 
+									data visualisation, web development, cloud computing and CI/CD.</p>
+								</header>
+								<a href="https://fplprophecy.com" class="image main"><img src="images/FPLProphecy.png" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="https://fplprophecy.com" class="button large">Visit Website</a></li>
+								</ul>
+							</article>
+
 						<!-- Posts -->
 							<section class="posts">
 								<article>
 									<header>
-										<!-- <span class="date">April 22, 2017</span> -->
-										<h2><a href="https://github.com/RobertKHawley/Portfolio/blob/main/DataCleaning_SQL_NashvilleHousing/NashvilleHousingDataCleaning.sql">Data Cleaning</br>
-										in SQL</a></h2>
+										<!-- <span class="date">April 24, 2017</span> -->
+										<h2><a href="#">Data Mining: Finding Interchangeable Players</a></h2>
 									</header>
-									<a href="https://github.com/RobertKHawley/Portfolio/blob/main/DataCleaning_SQL_NashvilleHousing/NashvilleHousingDataCleaning.sql" class="image fit"><img src="images/housing.jpg" alt="" /></a>
-									<p>In this project, we increase the usability of a housing dataset in SQL Server 
-										by standardising categorical data, populating missing fields, deleting duplicates and dropping unnecessary columns.</a></p>
+									<a href="https://github.com/RobertKHawley/portfolio/blob/main/analysing_player_swaps.ipynb" class="image fit"><img src="images/swap_network.png" alt="" /></a>
+									<p>How does underlying patterns in teammate replacements (e.g. substitutions, rotations, etc.) reveal player similarity?</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/RobertKHawley/Portfolio/blob/main/DataCleaning_SQL_NashvilleHousing/NashvilleHousingDataCleaning.sql" class="button">View Project</a></li>
+										<li><a href="https://github.com/RobertKHawley/portfolio/blob/main/analysing_player_swaps.ipynb" class="button">Notebook</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<!-- <span class="date">April 24, 2017</span> -->
-										<h2><a href="https://github.com/RobertKHawley/Portfolio/blob/main/DataExploration_SQL_COVID-19/DataExploration_SQL_COVID-19.sql">Data Exploration</br>
-										in SQL</a></h2>
+										<!-- <span class="date">April 22, 2017</span> -->
+										<h2><a href="#">Feature Augmentation: Breaking Down xMins</h2>
 									</header>
-									<a href="https://github.com/RobertKHawley/Portfolio/blob/main/DataExploration_SQL_COVID-19/DataExploration_SQL_COVID-19.sql" class="image fit"><img src="images/covid.jpg" alt="" /></a>
-									<p>In this project, we investigate a COVID-19 dataset in SQL server 
-										by utilising CTEs, temp tables, joins, self-joins, 
-										aggregate functions, window functions and more. 
-										We prepare queries for visualisations and machine learning algorithms.</p>
+									<a href="https://github.com/RobertKHawley/portfolio/blob/main/xMins_to_probabilities.ipynb" class="image fit"><img src="images/xmins.png" alt="" /></a>
+									<p>If you know the expected minutes (xMins) a footballer will play, can you estimate the probabilties they will play or start, and the expected minutes for given scenarios?</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/RobertKHawley/Portfolio/blob/main/DataExploration_SQL_COVID-19/DataExploration_SQL_COVID-19.sql" class="button">View Project</a></li>
+										<li><a href="https://github.com/RobertKHawley/portfolio/blob/main/xMins_to_probabilities.ipynb" class="button">Notebook</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										<!-- <span class="date">April 18, 2017</span> -->
-										<h2><a href="COVID-19_Dashboard.html">Data Visualisation</br>
-										in Tableau</h2>
+										<h2><a href="#">Predictive Modelling: Forecasting Players' GI</a></h2>
 									</header>
-									<a href="COVID-19_Dashboard.html" class="image fit"><img src="images/tableau.jpg" alt="" /></a>
-									<p>In this project, I produced an interactive Tableau dashboard to visualise queries from the COVID-19 data exploration project. My other Tableau worksheets/dashboards/stories can also be found here.</p>
+									<a href="https://github.com/RobertKHawley/portfolio/blob/main/player_ratings.ipynb" class="image fit"><img src="images/lr_v_mse.png" alt="" /></a>
+									<p>We have a model for predicting fixture outcomes, but what about individual players? How much goal involvement (GI) can you expected from each player?</p>
 									<ul class="actions special">
-										<li><a href="COVID-19_Dashboard.html" class="button">View Project</a></li>
+										<li><a href="https://github.com/RobertKHawley/portfolio/blob/main/player_ratings.ipynb" class="button">Notebook</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										<!-- <span class="date">April 14, 2017</span> -->
-										<h2><a href="https://github.com/RobertKHawley/Portfolio/blob/main/Correlation_Python_Movies/MovieCorrelationProject.ipynb">Correlation Analysis</br>
-										in Python</a></h2>
+										<h2><a href="#">Chrome Extension:</br>CTRL+F but GPT</a></h2>
 									</header>
-									<a href="https://github.com/RobertKHawley/Portfolio/blob/main/Correlation_Python_Movies/MovieCorrelationProject.ipynb" class="image fit"><img src="images/movies.jpg" alt="" /></a>
-									<p>In this project, we prepare movie data and analyse correlations between features (native and calculated) in Python using the pandas, seaborn, matplotlib and NumPy libraries.</p>
+									<a class="image fit"><img src="images/openAI-chat-gpt-1.jpg" alt="" /></a>
+									<p>A Chrome extension leveraging OpenAI's ChatGPT for faster searching. The extension prompts the inner text of the current web page and generates a text response to user input.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/RobertKHawley/Portfolio/blob/main/Correlation_Python_Movies/MovieCorrelationProject.ipynb" class="button">View Project</a></li>
+										<li><a class="button">Coming Soon</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<!-- <span class="date">April 14, 2017</span> -->
+										<h2><a href="#">Failed Project: Predicting Football Lineups</a></h2>
+									</header>
+									<a href="https://github.com/RobertKHawley/portfolio/blob/main/player_ratings.ipynb" class="image fit"><img src="images/heatmap.png" alt="" /></a>
+									<p>This notebook is to wrangle football lineup and player availalibity data and find explore how to predict future lineups given player availabity.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/RobertKHawley/portfolio/blob/main/player_ratings.ipynb" class="button">Notebook</a></li>
 									</ul>
 								</article>
 							</section>
+
+						<!-- Footer -->
+							<!-- <footer>
+								<div class="pagination">
+									<a href="#" class="previous">Prev</a>
+									<a class="page active">1</a>
+									<a class="next">Next</a>
+								</div>
+							</footer> -->
+
+					</div>
+				<!-- Footer -->
+				<footer id="footer">
+
+					<section class="split contact">
+						<section class="alt">
+							<h3>Location</h3>
+							<p><a href="https://goo.gl/maps/GJ1jxPXE6GGR5MQ17">Bradford, UK</a></p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p><a href="tel: +447415773536">(+44) 7415-773536</a></p>
+						</section>
+					</section>
+					<section class="split contact">
+						<section>
+							<h3>Email</h3>
+							<p><a href="mailto: robertkhawley@gmail.com">robertkhawley@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/robertkhawley/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/RobertKHawley" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<!-- <ul><li>&copy; Robert Hawley</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul> -->
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p><a href="https://goo.gl/maps/GJ1jxPXE6GGR5MQ17">Bradford, UK</a></p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="tel: +447415773536">(+44) 7415-773536</a></p>
-							</section>
-						</section>
-						<section class="split contact">
-							<section>
-								<h3>Email</h3>
-								<p><a href="mailto: robertkhawley@gmail.com">robertkhawley@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/robertkhawley/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/RobertKHawley" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
 			</div>
 
 		<!-- Scripts -->
-			<script src="./assets/js/jquery.min.js"></script>
-			<script src="./assets/js/jquery.scrollex.min.js"></script>
-			<script src="./assets/js/jquery.scrolly.min.js"></script>
-			<script src="./assets/js/browser.min.js"></script>
-			<script src="./assets/js/breakpoints.min.js"></script>
-			<script src="./assets/js/util.js"></script>
-			<script src="./assets/js/main.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
